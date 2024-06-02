@@ -29,12 +29,14 @@ class HeaderAllExpenses extends StatelessWidget {
                   //  imageBackground ?? const Color(0xFFFAFAFA),
                   shape: OvalBorder(),
                 ),
-                child: Center(child: SvgPicture.asset(img)),
+                child: Center(
+                  child:
+                   SvgPicture.asset(img)),
               ),
             ),
           ),
         ),
-        const Spacer(),
+        //const Spacer(),
         Transform.rotate(
           angle: -1.57079633 * 2,
           child: const Icon(

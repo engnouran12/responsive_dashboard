@@ -27,7 +27,8 @@ class Assets {
 
   /// Assets for imagesExpenses
   /// assets/images/expenses.svg
-  static const String imagesExpenses = "assets/images/expenses.svg";
+  static const String imagesExpenses =
+   "assets/images/expenses.svg";
 
   /// Assets for imagesGallery
   /// assets/images/gallery.svg
